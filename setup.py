@@ -10,7 +10,7 @@ config = {
 	'download_url' : 'https://github.com/danhakin/pywebscrapper.git',
 	'author_email' : 'danhakin@gmail.com',
 	'version' : '0.1',
-	'install_requires' : ['nose'],
+	'install_requires' : ['nose','lxml', 'requests'],
 	'packages' : ['pywebscrapper'],
 	'scripts' : [],
 	'name' : 'pywebscrapper'
