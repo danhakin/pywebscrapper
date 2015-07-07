@@ -1,5 +1,5 @@
 from nose.tools import *
-import pywebscrapper
+import pywebscrapper.webscrapper as ws
 
 def setup():
 	print "SETUP!"
@@ -9,3 +9,6 @@ def teardown():
 
 def test_basic():
 	print "I RAN!"
+
+def test_hello():
+	assert ws.hello() == 'hello'
